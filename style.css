@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    background: #202C36;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 81px;
+}
+
+.header{
+    max-width: 1440px;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2B3844;
+    padding: 0 81px;
+    box-shadow: 0px 2px 4px 0px #0000000E;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.dark{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search{
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    padding-left: 32px;
+    color: white;
+    margin: 48px 0;
+}
+
+.section{
+    max-width: 1440px;
+    height: 336px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 71px;
+}
+
+.section1{
+    max-width: 1440px;
+    height: 336px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 71px;
+}
+
+.card{
+    width: 267px;
+    height: 250px;
+    border-radius: 5px;
+    background: #2B3844;
+}
+
+.card h1{
+    height: 30%;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    align-content: center;
+}
+
+@media (max-width: 991.98px) { 
+    .container{
+        padding: 0 34px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    .dark{
+        font-size: 18px;
+    }
+    .search{
+        width: 100%;
+        height: 100px;
+    }
+    .section{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-bottom: 100px;
+    }
+
+    .section1{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 350px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container{
+        padding: 0 16px;
+    }
+    .logo{
+        font-size: 14px;
+    }
+    .dark{
+        font-size: 12px;
+    }
+    .search{
+        height: 48px;
+    }
+    .section{
+        display: block;
+        margin-left: 56px;
+    }
+
+    .section1{
+        margin-top: 1050px;
+        margin-left: 56px;
+    }
+}
